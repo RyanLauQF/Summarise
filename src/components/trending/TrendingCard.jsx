@@ -7,14 +7,18 @@ import { Button } from 'react-bootstrap';
 export default function TrendingCard({ article }) {
   return (
     <Card sx={{ marginY: 2, marginX: 4, borderRadius: 4 }} variant="outlined">
-      <Stack direction="row" paddingBottom={2}>
-        <Box padding={4} alignSelf="center">
+      <Stack
+        sx={{ flexDirection: { xs: 'column', lg: 'row' } }}
+        paddingBottom={2}
+        flexWrap
+      >
+        <Box padding={4} alignSelf="center" flexBasis="50%">
           <Stack>
             <img
               src={article.urlToImage}
               alt="filler"
               style={{
-                width: '35vw',
+                width: '100%',
                 height: '25vw', // Set a fixed height to maintain the aspect ratio
                 objectFit: 'cover', // Use 'cover' to fill the container
                 borderRadius: 10,
@@ -56,7 +60,7 @@ export default function TrendingCard({ article }) {
             </Stack>
           </Stack>
         </Box>
-        <Stack justifyContent="center" padding={4} paddingY={5}>
+        <Stack justifyContent="center" padding={4} paddingY={5} flexBasis="50%">
           <Typography
             variant="h5"
             fontWeight={700}
