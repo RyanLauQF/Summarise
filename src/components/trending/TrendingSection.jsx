@@ -23,7 +23,7 @@ export default function TrendingSection() {
   }, []);
 
   return (
-    <section className=" projects hidden md:block" id="projects">
+    <section className="projects hidden md:block" id="projects">
       <div className="flex projects__container">
         <Button
           className="projects__swiper-prev"
@@ -58,8 +58,8 @@ export default function TrendingSection() {
           }}
           modules={[Autoplay, Pagination, Navigation]}
         >
-          {trendingArticles.map((article) => (
-            <SwiperSlide>
+          {trendingArticles.map((article, index) => (
+            <SwiperSlide key={index}>
               <TrendingCard article={article} />
             </SwiperSlide>
           ))}

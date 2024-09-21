@@ -66,7 +66,7 @@ function Login() {
             paddingBottom: '170px',
           }}
         >
-          <img src="assets/minidigest_logo.png" alt="logo" width={300} />
+          <img src="assets/logo.png" alt="logo" width={300} />
         </Box>
         <Typography width="60vw" variant="h5">
           Login to Your Account. Your Digest Awaits!

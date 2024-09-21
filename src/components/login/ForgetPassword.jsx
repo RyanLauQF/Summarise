@@ -61,7 +61,7 @@ export default function ForgetPassword() {
             paddingBottom: '170px',
           }}
         >
-          <img src="assets/minidigest_logo.png" alt="logo" width={300} />
+          <img src="assets/logo.png" alt="logo" width={300} />
         </Box>
         <Typography width="60vw" variant="h5">
           Forgot password? Enter your email address below.
