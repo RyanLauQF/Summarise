@@ -4,7 +4,7 @@
 
 > Delivering to you what matters.
 
-[_Summarise_](https://summarise.vercel.app/) delivers concise and informative news summaries that cater to the unique lifestyles and preferences of our audience, by harnessing the power of LLMs to offer personalized experiences.
+[_Summarise_](https://summarise.vercel.app/) delivers concise and informative news summaries that cater to the unique lifestyles and preferences of individuals, by harnessing the power of LLMs to offer personalized experiences.
 
 Staying informed should be accessible, efficient, and inclusive, hence _Summarise_ provides a tech-driven news consumption experience that enriches lives and fosters informed decision-making. In harmony with the Smart Nation principles, it provides equitable access to information and knowledge, leaving no citizen behind in the digital age. It also aims to foster a culture of inclusivity, where the benefits of technology are harnessed to empower every individual in our diverse society.
 
